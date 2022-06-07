@@ -1,5 +1,5 @@
 const express = require("express")
-const Sessioncontroler = require('./controlers/SessionControler')
+const Sessioncontroler = require('./controllers/SessionController')
 
 const routes = express.Router()
 
