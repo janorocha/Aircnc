@@ -4,7 +4,7 @@ const routes = require('./routes')
 
 const app = express()
 
-mongoose.connect('mongodb+srv://aircncdb:0AcuHUeH7vHwrB5a@aircnc.lrduflw.mongodb.net/test?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://aircncuser:1234@aircnc.lrduflw.mongodb.net/Aircnc?retryWrites=true&w=majority')
 // {
 //     useNewUrlParser: true,
 //     useUnifiedTopology: true,
