@@ -1,8 +1,8 @@
 const express = require("express")
-const Sessioncontroler = require('./controllers/SessionController')
+const Sessioncontroller = require('./controllers/SessionController')
 
 const routes = express.Router()
 
-routes.post('/sessions', Sessioncontroler.store)
+routes.post('/sessions', Sessioncontroller.store)
 
 module.exports = routes
